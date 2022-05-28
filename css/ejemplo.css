@@ -1,0 +1,56 @@
+.referencias {
+        /*colocar color de fondo, solo 1*/
+    background-color: transparent; 
+    /*
+        nombreDeColor, hexadecimal, rgb, hsl, rgba
+    */
+
+        /*colocar imagenes de fondo, mas de 1*/
+    background-image: none;
+    /*
+        url(ruraImagen), 
+        linear-gradiant(inclinacion, color, color), 
+        radial-gradiant(circle/elipse closest-side/farthest-corner at eje-x eje-y , color, color)
+    */
+
+        /*evitar o permitir que la imagen se repita hasta rellenar espacio en blanco*/
+    background-repeat: repeat;
+    /*
+        no-repeat, repeat-x, repeat-y
+    */
+    
+        /*modificar el tamaño del fondo*/
+    background-size: auto auto;
+    /*
+        px, rem, em, etc
+    */
+
+        /*modificar la posicion del fondo */
+    background-position: 0% 0%;
+    /*
+        px, , top-right-etc, rem, em, etc
+    */
+
+        /*cambia el comportamiento del fondo ante el scroll*/
+    background-attachment: scroll;
+    /*
+        fixed
+    */
+
+        /*indica donde inicia el fondo*/
+    background-origin: padding-box;
+    /*
+        border-box
+        content-box
+    */
+
+        /*indica donde termina el fondo*/
+    background-clip: border-box;
+    /*
+        padding-box
+        content-box
+    */
+    
+        /*atajo para todas las propiedades anteriores*/
+    background: image position size repeat origin clip attachment color;
+}
